@@ -1,26 +1,28 @@
 <?php
 
 // exo 1 debut
-
-// for ($i = 0 ; $i < 11 ; $i ++){ //boucle for initialiser à 0. incrementer jusque 11
+//$i = 0 ;
+// for ($i ; $i <= 10 ; $i ++){ //boucle for initialiser à 0. incrementer jusque 11
 //     echo "<p>" . $i. "</p>"; //l'affiche
 // }
 
 // exo 1 fin 
 
 // exo 2 debut 
-
+// $var1 = 0;
 // $var2 = 10 ;
-// for($i = 0 ; $i <= 20 ; $i ++){
-//     echo "<p>" .$i * $var2 . "</p>";
+// for($var1 ; $var1 <= 20 ; $i ++){
+//     echo "<p>" .$var1 * $var2 . "</p>";
 // }
 
 // exo 2 fin 
 
 // exo 3 debut 
-// $var2 = 10 ;
-// for ($i=100; $i > 10 ; $i--) { 
-//     echo "<p>" .$i * $var2 . "</p>";
+// $number1 = 100 ;
+// $number2 = 50 ;
+//
+// for ($number1; $number >= 10 ; $number--) { 
+//     echo "<p>" .$number1 * $number2 . "</p>";
 // }
 // exo 3 fin 
 
@@ -50,7 +52,7 @@
 //exo 7 fin
 
 // exo 8 debut
-// for ($i = 1; $i <200 ; $i+=12){
+// for ($i = 200; $i >= 0 ; $i-=12) {
 //     echo "<p>" . $i . "</p>";
 // }
 // ?>

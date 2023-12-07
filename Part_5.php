@@ -12,26 +12,25 @@
 // $mois[7]="août";
 // var_dump($mois);
 //exo 5 part 5
-$departements=[
+// $departements=[
 
-'Aisne' => 02,
-'Nord' => 59,
-'Oise'=> 60,
-'Pas-de-Calais'=>62,
-'Somme'=> 80,
+// 02 =>'Aisne',
+// 59 =>'Nord',
+// 60 =>'Oise',
+// 62 =>'Pas-de-Calais',
+// 80 =>'Somme',
 
-];
+// ];
 
-// var_dump($departement);
+// print_r($departement);
 
 // //exo 6 part 5
 
-
-// //echo $departement['Nord'];
+// //echo $departement[59];
 
 // // exo 7 part 5
 
-// $departement=['Reims'=> 51,];
+// $departement [51] = 'Reims';
 // var_dump($departement);
 
 //exo 8 part 5
@@ -47,9 +46,9 @@ $departements=[
 // }
 
 // exo 10 part 5 
-foreach ($departements as $key => $departement) {
-    echo "<p>Le département " . $departement . " a le numéro " . $key . "</p>";
+// foreach ($departements as $key => $value) {
+//     echo "<p>Le département " . $value . " a le numéro " . $key . "</p>";
 
-}
+// }
 
 ?>
